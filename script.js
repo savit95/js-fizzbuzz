@@ -2,16 +2,16 @@
 
 
 for (let i = 0; i <= 100; i++) {
-    console.log(i);
     let restoTre= i % 3;
     let restoCinque= i % 5;
 
     if(restoTre === 0 && restoCinque === 0) {
-        console.log(`${i} FizzBuzz`)
+        console.log(`FizzBuzz`)
     } else if (restoTre === 0 ) {
-        console.log(`${i} Fizz`)
+        console.log(`Fizz`)
     } else if(restoCinque === 0){
-        console.log(`${i} Buzz`)
+        console.log(`Buzz`)
+    }else{
+        console.log(i);
     }
-
 }

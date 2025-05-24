@@ -10,6 +10,8 @@ for (let i = 0; i <= 100; i++) {
         console.log(`${i} FizzBuzz`)
     } else if (restoTre === 0 ) {
         console.log(`${i} Fizz`)
-    } 
+    } else if(restoCinque === 0){
+        console.log(`${i} Buzz`)
+    }
 
 }
